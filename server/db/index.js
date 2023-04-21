@@ -9,8 +9,8 @@ var mysql = require('mysql2');
 
 
 var connection = mysql.createConnection({
-  user: 'student',
-  password: 'student',
+  user: 'root',
+  password: 'root',
   database: 'chat',
 });
 
